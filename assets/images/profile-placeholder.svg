@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#1C2128"/>
+  <circle cx="200" cy="160" r="70" fill="#30363D"/>
+  <path d="M70 360 C70 270, 130 250, 200 250 C270 250, 330 270, 330 360 Z" fill="#30363D"/>
+  <!-- Subtle RF Electromagnetics Wave Graphic Overlay -->
+  <path d="M50 200 Q 125 140, 200 200 T 350 200" fill="none" stroke="#58A6FF" stroke-width="3" opacity="0.3"/>
+  <path d="M50 200 Q 125 260, 200 200 T 350 200" fill="none" stroke="#58A6FF" stroke-width="2" opacity="0.2"/>
+</svg>

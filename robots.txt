@@ -1,0 +1,5 @@
+# Allow all search engine web crawlers
+User-agent: *
+Allow: /
+
+Sitemap: https://noori909.github.io/sitemap.xml

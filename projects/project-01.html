@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Log: Flexible mmWave MIMO Antenna — Noman Rahim</title>
+  <meta name="description" content="Technical project log for a flexible MIMO antenna system operating at mmWave frequencies for IoT devices.">
+  <link rel="icon" type="image/svg+xml" href="../favicon/favicon.svg">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="../index.html" class="site-brand">
+        <span>Noman Rahim</span>
+        <span class="brand-badge">EE.LAB</span>
+      </a>
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="../index.html" class="nav-link">Home</a></li>
+          <li><a href="../about.html" class="nav-link">About</a></li>
+          <li><a href="../education.html" class="nav-link">Education</a></li>
+          <li><a href="../skills.html" class="nav-link">Skills</a></li>
+          <li><a href="../research.html" class="nav-link">Research</a></li>
+          <li><a href="../projects.html" class="nav-link active">Projects</a></li>
+          <li><a href="../journal.html" class="nav-link">Field Notes</a></li>
+          <li><a href="../interests.html" class="nav-link">Beyond</a></li>
+          <li><a href="../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme"></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content reading-container">
+    <a href="../projects.html" class="nav-link" style="font-family: var(--font-mono); font-size: 0.85rem; display: inline-block; margin-bottom: 1.5rem;">&larr; Back to Projects</a>
+    
+    <header class="page-header">
+      <div class="article-meta">
+        <span>Category: RF & Antenna Engineering</span>
+        <span>Status: Active Project</span>
+        <span>Tools: CST Studio Suite, Ansys HFSS</span>
+      </div>
+      <h1 class="article-title">Flexible MIMO Antenna System for Next-Gen mm-Wave IoT-Enabled Smart Devices</h1>
+      <p class="page-subtitle">Design, bending-analysis, and 3D full-wave electromagnetic optimization of a flexible multi-port MIMO antenna array operating at millimeter-wave frequencies.</p>
+    </header>
+
+    <article class="article-content">
+      <h2>1. Overview & Objective</h2>
+      <p>
+        Next-generation IoT smart devices and body-centric wearables demand high data throughput, low latency, and conformable physical form factors. This project focuses on designing a multi-element (MIMO) antenna printed on flexible dielectric substrates (such as Polyimide / PET) operating at millimeter-wave (mmWave) frequency bands.
+      </p>
+
+      <h2>2. Design Considerations</h2>
+      <ul>
+        <li><strong>Substrate Conformability:</strong> Evaluating return loss ($S_{11}$) stability under physical bending radii ($R = 10\text{ mm}$ to $30\text{ mm}$).</li>
+        <li><strong>Mutual Coupling Reduction:</strong> Employing defected ground structures (DGS) or decoupling slots to ensure inter-port isolation ($S_{21} < -20\text{ dB}$).</li>
+        <li><strong>Diversity Performance:</strong> Calculating Envelope Correlation Coefficient (ECC $< 0.005$) and Diversity Gain (DG $\approx 10\text{ dB}$).</li>
+      </ul>
+
+      <h2>3. CST Studio Suite & HFSS Full-Wave Simulations</h2>
+      <p>
+        Using CST Studio Suite’s transient solver and Ansys HFSS Finite Element Method (FEM) solver to cross-verify far-field radiation patterns, gain ($> 5.5\text{ dBi}$), and surface current distributions under flex conditions.
+      </p>
+
+      <h2>4. Current Progress & Future Milestones</h2>
+      <p>
+        Finalizing array element placement and preparing electromagnetic simulation dataset for fabrication benchmarking.
+      </p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span>&copy; 2026 Noman Rahim. Hosted on GitHub Pages.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
