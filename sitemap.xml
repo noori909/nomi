@@ -1,67 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://noori909.github.io/</loc>
+    <loc>https://nomanrahim.me/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://noori909.github.io/about.html</loc>
+    <loc>https://nomanrahim.me/about.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://noori909.github.io/education.html</loc>
+    <loc>https://nomanrahim.me/education.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://noori909.github.io/skills.html</loc>
+    <loc>https://nomanrahim.me/skills.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://noori909.github.io/research.html</loc>
+    <loc>https://nomanrahim.me/research.html</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://noori909.github.io/projects.html</loc>
+    <loc>https://nomanrahim.me/projects.html</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://noori909.github.io/journal.html</loc>
+    <loc>https://nomanrahim.me/projects/project-01.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nomanrahim.me/projects/project-02.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nomanrahim.me/journal.html</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://noori909.github.io/journal/article-01.html</loc>
+    <loc>https://nomanrahim.me/journal/article-01.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://noori909.github.io/journal/article-02.html</loc>
+    <loc>https://nomanrahim.me/journal/article-02.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://noori909.github.io/journal/article-03.html</loc>
+    <loc>https://nomanrahim.me/journal/article-03.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://noori909.github.io/journal/article-04.html</loc>
+    <loc>https://nomanrahim.me/journal/article-04.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://noori909.github.io/journal/article-05.html</loc>
+    <loc>https://nomanrahim.me/journal/article-05.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://noori909.github.io/journal/article-06.html</loc>
+    <loc>https://nomanrahim.me/journal/article-06.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://noori909.github.io/journal/article-07.html</loc>
+    <loc>https://nomanrahim.me/journal/article-07.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://noori909.github.io/interests.html</loc>
+    <loc>https://nomanrahim.me/interests.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://noori909.github.io/contact.html</loc>
+    <loc>https://nomanrahim.me/contact.html</loc>
     <priority>0.7</priority>
   </url>
 </urlset>
