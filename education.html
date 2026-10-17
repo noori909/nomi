@@ -3,49 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Education — Noman</title>
-  <meta name="description" content="Academic record, broad Electrical Engineering curriculum, and official 6-semester course history of Noman at BUITEMS Quetta.">
+  <title>Education — Noman Rahim</title>
+  <meta name="description" content="Academic degree, subject groupings, and official 6-semester course record of Noman Rahim in Electrical Engineering at BUITEMS Quetta.">
   <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
   <style>
-    .semester-grid {
+    .subject-group-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       gap: 1.25rem;
-      margin-top: 1.5rem;
+      margin-top: 1.25rem;
     }
-    .semester-card {
+    .subject-group-card {
       background-color: var(--bg-surface);
       border: 1px solid var(--border-color);
       border-radius: var(--radius-md);
       padding: 1.25rem;
     }
+    .subject-group-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .semester-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1.25rem;
+    }
+    .semester-card {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1.15rem;
+    }
     .semester-title {
       font-family: var(--font-mono);
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       font-weight: 700;
       color: var(--accent-color);
       text-transform: uppercase;
-      margin-bottom: 0.75rem;
+      margin-bottom: 0.65rem;
       border-bottom: 1px solid var(--border-color);
-      padding-bottom: 0.4rem;
+      padding-bottom: 0.35rem;
     }
     .course-list {
       list-style: none;
-      font-size: 0.875rem;
+      font-size: 0.85rem;
       color: var(--text-secondary);
-      line-height: 1.6;
+      line-height: 1.55;
     }
     .course-list li {
-      margin-bottom: 0.35rem;
+      margin-bottom: 0.3rem;
     }
     .course-code {
       font-family: var(--font-mono);
-      font-size: 0.78rem;
+      font-size: 0.75rem;
       color: var(--text-muted);
       margin-right: 0.4rem;
+    }
+    details summary {
+      cursor: pointer;
+      user-select: none;
     }
   </style>
 </head>
@@ -54,7 +79,7 @@
   <header class="site-header">
     <div class="container nav-container">
       <a href="index.html" class="site-brand">
-        <span>Noman</span>
+        <span>Noman Rahim</span>
         <span class="brand-badge">EE.LAB</span>
       </a>
       <nav>
@@ -65,8 +90,10 @@
           <li><a href="skills.html" class="nav-link">Skills</a></li>
           <li><a href="research.html" class="nav-link">Research</a></li>
           <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li class="nav-divider" aria-hidden="true"></li>
           <li><a href="journal.html" class="nav-link">Field Notes</a></li>
           <li><a href="interests.html" class="nav-link">Beyond</a></li>
+          <li class="nav-divider" aria-hidden="true"></li>
           <li><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
       </nav>
@@ -83,135 +110,224 @@
     <header class="page-header">
       <span class="mono-tag">// Academic Progression</span>
       <h1 class="page-title">Education & Coursework</h1>
-      <p class="page-subtitle">Undergraduate academic record and official course history at BUITEMS Quetta.</p>
+      <p class="page-subtitle">Degree foundation, subject groupings, and official academic progression at BUITEMS Quetta.</p>
     </header>
 
     <!-- Primary Degree -->
     <section class="section-spacing">
-      <div class="card" style="margin-bottom: 2rem;">
-        <span class="mono-tag">Undergraduate Degree</span>
-        <h2 class="card-title" style="font-size: 1.5rem;">Bachelor of Science in Electrical Engineering</h2>
+      <div class="card">
+        <span class="mono-tag">Degree</span>
+        <h2 class="card-title" style="font-size: 1.45rem;">Bachelor of Science in Electrical Engineering</h2>
         <div class="card-meta">
           <span>Balochistan University of Information Technology, Engineering and Management Sciences (BUITEMS), Quetta</span>
-          <span>Academic Direction: Telecommunication</span>
+          <span>Specialization: Telecommunication</span>
         </div>
         <p class="card-body">
-          A broad Electrical Engineering curriculum establishing foundational competence across electronic circuit design, linear systems, signals, embedded computing, machine learning, and control theory—with an academic direction in Telecommunications and an emerging focus in Applied Electromagnetics and high-frequency RF systems. Major Telecommunications and Networking coursework continues through the final academic year.
+          A comprehensive Electrical Engineering curriculum covering circuit theory, discrete electronics, signals and systems, control systems, and computing, with an academic direction in Telecommunications and an emerging focus in high-frequency Applied Electromagnetics.
         </p>
+      </div>
+    </section>
 
-        <h4 style="margin-top: 1rem; margin-bottom: 0.5rem; font-size: 0.95rem;">Key Completed Core & Specialized Coursework:</h4>
-        <div class="tag-list">
-          <span class="tag">Linear Circuit Analysis</span>
-          <span class="tag">Electronic Devices & Circuits</span>
-          <span class="tag">Electronic Circuit Design</span>
-          <span class="tag">Electrical Network Analysis</span>
-          <span class="tag">Digital Logic Design</span>
-          <span class="tag">Signals & Systems</span>
-          <span class="tag">Electromagnetic Field Theory</span>
-          <span class="tag">Linear Control Systems</span>
-          <span class="tag">Embedded Systems</span>
-          <span class="tag">Data Structures & Algorithms</span>
-          <span class="tag">Machine Learning</span>
-          <span class="tag">Communication Systems</span>
-          <span class="tag">Computer Communication Networks</span>
-          <span class="tag">Electrical Machines</span>
-          <span class="tag">Complex Variables & Transforms</span>
+    <!-- Coursework Subject Groups -->
+    <section class="section-spacing">
+      <h2 class="section-title">Coursework by Subject Area</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 1.25rem;">
+        Relevant completed engineering subjects grouped by disciplinary area:
+      </p>
+
+      <div class="subject-group-grid">
+        <!-- 1. Electronics and Circuits -->
+        <div class="subject-group-card">
+          <h3 class="subject-group-title">Electronics & Circuits</h3>
+          <div class="tag-list">
+            <span class="tag">Linear Circuit Analysis</span>
+            <span class="tag">Electronic Devices & Circuits</span>
+            <span class="tag">Electronic Circuit Design</span>
+            <span class="tag">Electrical Network Analysis</span>
+            <span class="tag">Digital Logic Design</span>
+            <span class="tag">Electrical Machines</span>
+          </div>
+        </div>
+
+        <!-- 2. Signals, Systems and Control -->
+        <div class="subject-group-card">
+          <h3 class="subject-group-title">Signals, Systems & Control</h3>
+          <div class="tag-list">
+            <span class="tag">Signals & Systems</span>
+            <span class="tag">Linear Control Systems</span>
+            <span class="tag">Probability Methods in Engineering</span>
+            <span class="tag">Complex Variables & Transforms</span>
+          </div>
+        </div>
+
+        <!-- 3. Communications and Networking -->
+        <div class="subject-group-card">
+          <h3 class="subject-group-title">Communications & Networking</h3>
+          <div class="tag-list">
+            <span class="tag">Communication Systems</span>
+            <span class="tag">Computer Communication Networks</span>
+          </div>
+        </div>
+
+        <!-- 4. Computing and Machine Learning -->
+        <div class="subject-group-card">
+          <h3 class="subject-group-title">Computing & Machine Learning</h3>
+          <div class="tag-list">
+            <span class="tag">Computing Fundamentals</span>
+            <span class="tag">Programming Fundamentals</span>
+            <span class="tag">Data Structures & Algorithms</span>
+            <span class="tag">Embedded Systems</span>
+            <span class="tag">Machine Learning</span>
+          </div>
+        </div>
+
+        <!-- 5. Electromagnetics and Electrical Engineering -->
+        <div class="subject-group-card">
+          <h3 class="subject-group-title">Electromagnetics & EE Fundamentals</h3>
+          <div class="tag-list">
+            <span class="tag">Electromagnetic Field Theory</span>
+            <span class="tag">Applied Physics</span>
+            <span class="tag">Engineering Drawing</span>
+            <span class="tag">Applied Thermodynamics</span>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Complete Course History (Semesters 1 through 6) -->
+    <!-- Complete Semester-by-Semester Record (Accessible in Collapsible Details) -->
     <section class="section-spacing">
-      <h2 class="section-title">Official Course History (Semesters 1 – 6)</h2>
-      <p style="color: var(--text-secondary); margin-bottom: 1.25rem;">
-        Completed academic course record through 6th semester.
-      </p>
+      <details style="background-color: var(--bg-surface); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 1.5rem;">
+        <summary style="font-family: var(--font-heading); font-weight: 700; font-size: 1.1rem; color: var(--text-primary); display: flex; align-items: center; justify-content: space-between;">
+          <span>Complete Course Record (Semesters 1 – 6)</span>
+          <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-color); font-weight: normal;">[Click to Expand]</span>
+        </summary>
+        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.75rem; margin-bottom: 1.25rem;">
+          Official course history through six completed semesters at BUITEMS Quetta:
+        </p>
 
-      <div class="semester-grid">
-        
-        <!-- Fall 2023 -->
-        <div class="semester-card">
-          <div class="semester-title">Semester 1 &bull; Fall 2023</div>
-          <ul class="course-list">
-            <li><span class="course-code">CS 107</span> Computing Fundamentals & Lab</li>
-            <li><span class="course-code">ENG 161</span> Reading & Writing Skills</li>
-            <li><span class="course-code">ENG 201L</span> Engineering Drawing</li>
-            <li><span class="course-code">HUM 101</span> Islamic Studies</li>
-            <li><span class="course-code">MATHP 118</span> Calculus & Analytical Geometry</li>
-            <li><span class="course-code">PHY 205</span> Applied Physics & Lab</li>
-          </ul>
+        <div class="semester-grid">
+          <!-- Fall 2023 -->
+          <div class="semester-card">
+            <div class="semester-title">Semester 1 &bull; Fall 2023</div>
+            <ul class="course-list">
+              <li><span class="course-code">CS 107</span> Computing Fundamentals & Lab</li>
+              <li><span class="course-code">ENG 161</span> Reading & Writing Skills</li>
+              <li><span class="course-code">ENG 201L</span> Engineering Drawing</li>
+              <li><span class="course-code">HUM 101</span> Islamic Studies</li>
+              <li><span class="course-code">MATHP 118</span> Calculus & Analytical Geometry</li>
+              <li><span class="course-code">PHY 205</span> Applied Physics & Lab</li>
+            </ul>
+          </div>
+
+          <!-- Spring 2024 -->
+          <div class="semester-card">
+            <div class="semester-title">Semester 2 &bull; Spring 2024</div>
+            <ul class="course-list">
+              <li><span class="course-code">CS 114</span> Programming Fundamentals & Lab</li>
+              <li><span class="course-code">EE 112</span> Linear Circuit Analysis & Lab</li>
+              <li><span class="course-code">ELE 102L</span> Workshop Practice</li>
+              <li><span class="course-code">ELE 208</span> Electronic Devices & Circuits & Lab</li>
+              <li><span class="course-code">HUM 102</span> Pakistan Studies</li>
+              <li><span class="course-code">MATHA 214</span> Differential Equations</li>
+            </ul>
+          </div>
+
+          <!-- Fall 2024 -->
+          <div class="semester-card">
+            <div class="semester-title">Semester 3 &bull; Fall 2024</div>
+            <ul class="course-list">
+              <li><span class="course-code">EE 110</span> Digital Logic Design & Lab</li>
+              <li><span class="course-code">ELE 201</span> Electrical Network Analysis & Lab</li>
+              <li><span class="course-code">ENG 361</span> Communication & Presentation Skills</li>
+              <li><span class="course-code">MATHA 213</span> Complex Variables & Transforms</li>
+              <li><span class="course-code">MATHP 111</span> Linear Algebra</li>
+            </ul>
+          </div>
+
+          <!-- Spring 2025 -->
+          <div class="semester-card">
+            <div class="semester-title">Semester 4 &bull; Spring 2025</div>
+            <ul class="course-list">
+              <li><span class="course-code">EE 261</span> Signals & Systems & Lab</li>
+              <li><span class="course-code">EE 425</span> Embedded Systems & Lab</li>
+              <li><span class="course-code">ELE 202</span> Probability Methods in Engineering</li>
+              <li><span class="course-code">ELE 213</span> Electromagnetic Field Theory</li>
+              <li><span class="course-code">HUM 207</span> Professional Ethics</li>
+            </ul>
+          </div>
+
+          <!-- Fall 2025 -->
+          <div class="semester-card">
+            <div class="semester-title">Semester 5 &bull; Fall 2025</div>
+            <ul class="course-list">
+              <li><span class="course-code">CS 214</span> Data Structures & Algorithms & Lab</li>
+              <li><span class="course-code">ELE 211</span> Electrical Machines & Lab</li>
+              <li><span class="course-code">ENG 215</span> Applied Thermodynamics</li>
+              <li><span class="course-code">HUM 264</span> Technical Report Writing</li>
+              <li><span class="course-code">TE 305</span> Computer Communication Network & Lab</li>
+            </ul>
+          </div>
+
+          <!-- Spring 2026 -->
+          <div class="semester-card">
+            <div class="semester-title">Semester 6 &bull; Spring 2026</div>
+            <ul class="course-list">
+              <li><span class="course-code">CS 426</span> Machine Learning & Lab</li>
+              <li><span class="course-code">EE 109</span> Electronic Circuit Design & Lab</li>
+              <li><span class="course-code">ELE 214</span> Linear Control Systems & Lab</li>
+              <li><span class="course-code">TE 314</span> Communication Systems & Lab</li>
+              <li><span class="course-code">MGMT 304</span> Organizational Behavior</li>
+            </ul>
+          </div>
         </div>
-
-        <!-- Spring 2024 -->
-        <div class="semester-card">
-          <div class="semester-title">Semester 2 &bull; Spring 2024</div>
-          <ul class="course-list">
-            <li><span class="course-code">CS 114</span> Programming Fundamentals & Lab</li>
-            <li><span class="course-code">EE 112</span> Linear Circuit Analysis & Lab</li>
-            <li><span class="course-code">ELE 102L</span> Workshop Practice</li>
-            <li><span class="course-code">ELE 208</span> Electronic Devices & Circuits & Lab</li>
-            <li><span class="course-code">HUM 102</span> Pakistan Studies</li>
-            <li><span class="course-code">MATHA 214</span> Differential Equations</li>
-          </ul>
-        </div>
-
-        <!-- Fall 2024 -->
-        <div class="semester-card">
-          <div class="semester-title">Semester 3 &bull; Fall 2024</div>
-          <ul class="course-list">
-            <li><span class="course-code">EE 110</span> Digital Logic Design & Lab</li>
-            <li><span class="course-code">ELE 201</span> Electrical Network Analysis & Lab</li>
-            <li><span class="course-code">ENG 361</span> Communication & Presentation Skills</li>
-            <li><span class="course-code">MATHA 213</span> Complex Variables & Transforms</li>
-            <li><span class="course-code">MATHP 111</span> Linear Algebra</li>
-          </ul>
-        </div>
-
-        <!-- Spring 2025 -->
-        <div class="semester-card">
-          <div class="semester-title">Semester 4 &bull; Spring 2025</div>
-          <ul class="course-list">
-            <li><span class="course-code">EE 261</span> Signals & Systems & Lab</li>
-            <li><span class="course-code">EE 425</span> Embedded Systems & Lab</li>
-            <li><span class="course-code">ELE 202</span> Probability Methods in Engineering</li>
-            <li><span class="course-code">ELE 213</span> Electromagnetic Field Theory</li>
-            <li><span class="course-code">HUM 207</span> Professional Ethics</li>
-          </ul>
-        </div>
-
-        <!-- Fall 2025 -->
-        <div class="semester-card">
-          <div class="semester-title">Semester 5 &bull; Fall 2025</div>
-          <ul class="course-list">
-            <li><span class="course-code">CS 214</span> Data Structures & Algorithms & Lab</li>
-            <li><span class="course-code">ELE 211</span> Electrical Machines & Lab</li>
-            <li><span class="course-code">ENG 215</span> Applied Thermodynamics</li>
-            <li><span class="course-code">HUM 264</span> Technical Report Writing</li>
-            <li><span class="course-code">TE 305</span> Computer Communication Network & Lab</li>
-          </ul>
-        </div>
-
-        <!-- Spring 2026 -->
-        <div class="semester-card">
-          <div class="semester-title">Semester 6 &bull; Spring 2026</div>
-          <ul class="course-list">
-            <li><span class="course-code">CS 426</span> Machine Learning & Lab</li>
-            <li><span class="course-code">EE 109</span> Electronic Circuit Design & Lab</li>
-            <li><span class="course-code">ELE 214</span> Linear Control Systems & Lab</li>
-            <li><span class="course-code">TE 314</span> Communication Systems & Lab</li>
-            <li><span class="course-code">MGMT 304</span> Organizational Behavior</li>
-          </ul>
-        </div>
-
-      </div>
+      </details>
     </section>
 
   </main>
 
   <footer class="site-footer">
     <div class="container">
+      <div class="footer-container">
+        <div>
+          <div class="footer-brand-title">Noman Rahim</div>
+          <p class="footer-brand-desc">
+            Electrical Engineering Undergraduate &bull; Electromagnetics & RF. Personal Laboratory & Archive.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <div>
+            <div class="footer-column-title">Engineering</div>
+            <ul class="footer-nav">
+              <li><a href="about.html" class="footer-link">About</a></li>
+              <li><a href="education.html" class="footer-link">Education</a></li>
+              <li><a href="skills.html" class="footer-link">Skills</a></li>
+              <li><a href="research.html" class="footer-link">Research</a></li>
+              <li><a href="projects.html" class="footer-link">Projects</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-column-title">Personal</div>
+            <ul class="footer-nav">
+              <li><a href="journal.html" class="footer-link">Field Notes</a></li>
+              <li><a href="interests.html" class="footer-link">Beyond</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-column-title">Connect</div>
+            <ul class="footer-nav">
+              <li><a href="contact.html" class="footer-link">Contact</a></li>
+              <li><a href="https://github.com/noori909" target="_blank" rel="noopener" class="footer-link">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/noman-rahim-636455394" target="_blank" rel="noopener" class="footer-link">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <div class="footer-bottom">
-        <span>&copy; 2026 Noman. Hosted on GitHub Pages.</span>
+        <span>&copy; 2026 Noman Rahim. Hosted on GitHub Pages.</span>
       </div>
     </div>
   </footer>
